@@ -19,7 +19,7 @@ const buyNow = () => {
     
   }
  
-  else if (x == "text_value") {
+  else if (x.toUpperCase() === "YOUR NAME") {
     alert("Kindly enter your custom name");
   }
 
